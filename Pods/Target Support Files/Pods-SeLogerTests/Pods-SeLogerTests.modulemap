@@ -1,0 +1,6 @@
+framework module Pods_SeLogerTests {
+  umbrella header "Pods-SeLogerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

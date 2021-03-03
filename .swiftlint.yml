@@ -1,0 +1,5 @@
+included:
+  - SeLoger
+
+excluded:
+  - Pods

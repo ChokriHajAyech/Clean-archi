@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Housing" representedClassName="Housing" syncable="YES" codeGenerationType="class">
+        <attribute name="area" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="identity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="propertyType" optional="YES" attributeType="String"/>
+        <attribute name="urlImage" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Housing" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>
