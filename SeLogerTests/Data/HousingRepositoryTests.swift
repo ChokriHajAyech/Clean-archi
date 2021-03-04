@@ -11,7 +11,6 @@ import RxSwift
 class HousingRepositoryTests: QuickSpec {
 	override func spec() {
 		describe("check all HousingRepository scenarios") {
-		
 		var housingRepository: HousingRepository!
 		var housingServiceMock: HousingServiceMock!
 		var observableTest: Observable<AppResult<[HousingDetails]?, AppError>>!
