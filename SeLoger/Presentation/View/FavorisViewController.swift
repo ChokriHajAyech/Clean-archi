@@ -25,6 +25,17 @@ class FavorisViewController: BaseViewController<FavorisCoordinator, FavoritesVie
     }
 
     func bind() {
+        let viewWillAppear = rx.sentMessage(#selector(UIViewController.viewWillAppear(_:)))
+            .mapToVoid()
+            .asDriverOnErrorJustComplete()
+
+        viewWillAppear.drive(viewModel.input.trigger)
+            .disposed(by: disposBag)
+
+        viewModel.output.reload.asObservable().subscribe { _ in
+            self.tableView.reloadData()
+        }.disposed(by: disposBag)
+
         viewModel.output
             .housingListDataCell
             .drive(tableView.rx.items(

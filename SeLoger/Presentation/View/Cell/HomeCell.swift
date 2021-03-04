@@ -52,7 +52,6 @@ class HomeCell: UITableViewCell, HomeViewModelBindable {
 
     func bind(to viewModel: HomeViewModel) {
         disposeBag = DisposeBag()
-
         favoriteButton.rx
             .tap.map { _ -> Int in
                 return self.identifier!

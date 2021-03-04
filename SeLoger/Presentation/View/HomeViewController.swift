@@ -12,8 +12,7 @@ class HomeViewController: BaseViewController<HomeCoordinator, HomeViewModel>,
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidLoad() {        super.viewDidLoad()
         setupTableView()
         bind()
     }
@@ -47,8 +46,11 @@ class HomeViewController: BaseViewController<HomeCoordinator, HomeViewModel>,
                 (cell as HomeCell).bind(housingDataCell: housing)
                 (cell as HomeCell).bind(to: self.viewModel)
                 cell.refreshCallBack = {
-                    self.tableView.beginUpdates()
-                    self.tableView.endUpdates()
+                    UIView.performWithoutAnimation {
+                        self.tableView.beginUpdates()
+                        self.tableView.layoutIfNeeded()
+                        self.tableView.endUpdates()
+                    }
                 }
             }.disposed(by: disposBag)
 

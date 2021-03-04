@@ -61,9 +61,9 @@ class HomeViewModel: BaseViewModel<HomeCoordinator>, ViewModelType {
             .bind(to: offersList)
             .disposed(by: disposeBag)
 
-        let driverForSeaarch = Driver.combineLatest(
+        let driverForSearch = Driver.combineLatest(
             searchSubject.asDriver(onErrorJustReturn: ""), res)
-        let targets = searchHousing(driver: driverForSeaarch)
+        let targets = searchHousing(driver: driverForSearch)
         targets.asObservable()
             .observeOn(MainScheduler.instance)
             .bind(to: offersList)

@@ -141,6 +141,10 @@
                             <constraint firstItem="U02-7Q-sFP" firstAttribute="leading" secondItem="qKj-fE-z15" secondAttribute="leading" constant="20" id="nVD-09-sI2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="infoCacheLabel" destination="yML-nC-TXo" id="4C0-71-BBc"/>
+                        <outlet property="switchUI" destination="18B-KE-u7Y" id="1bj-Qb-aNd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gd-ZN-kuN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

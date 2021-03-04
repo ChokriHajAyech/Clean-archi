@@ -63,4 +63,20 @@ final class HousingRepositoryImpl: HousingRepository {
             return Observable.just(AppResult.failure(apperror))
         }
     }
+
+    func deleteAllHousingListings()
+        -> Observable<AppResult<Bool, AppError>> {
+
+        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "HousingListCoredataModel")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+
+        do {
+       try persistenceManager.persistentStoreCoordinator
+        .execute(deleteRequest, with: persistenceManager.managedObjectContext)
+            return Observable.just(AppResult.success(true))
+        } catch let error as NSError {
+            let apperror = AppError(message: error.localizedDescription, code: "\(error as NSError).code", status: -1)
+            return Observable.just(AppResult.failure(apperror))
+        }
+    }
 }

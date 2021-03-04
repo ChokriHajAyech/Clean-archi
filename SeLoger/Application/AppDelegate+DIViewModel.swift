@@ -61,7 +61,9 @@ extension AppDelegate {
 
         container.autoregister(SettingsViewModel.self,
                                initializer: SettingsViewModel.init)
-            .inObjectScope(ObjectScope.container)
+            .initCompleted { resolver, viewModel in
+                viewModel.housingDBUseCase = resolver.resolve(HousingDBUseCase.self)
+            }.inObjectScope(ObjectScope.container)
 
         container.autoregister(HousingDetailsViewModel.self,
                                initializer: HousingDetailsViewModel.init)
