@@ -8,7 +8,8 @@ final class HousingUseCaseImpl: HousingUseCase {
         self.repository = repository
     }
 
-    func housinglistings() -> Observable<AppResult<[HousingDetails]?, AppError>> {
+    func housinglistings()
+	-> Observable<AppResult<[HousingDetails]?, AppError>> {
         return repository.housinglistings()
     }
 
