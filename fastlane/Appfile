@@ -1,0 +1,21 @@
+# app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
+# apple_id("[[APPLE_ID]]") # Your Apple email address
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+app_identifier "com.ayech.entretien" #The bundle identifier of your app
+apple_id "haj.ayech@gmail.com" # Your Apple email address
+# You can uncomment the lines below and add your own
+# team selection in case you're in multiple teams
+team_name "CHOKRI EL HADJ AYECH"
+team_id "xxxxxxxx"
+# To select a team for App Store Connect use
+itc_team_name "CHOKRI EL HADJ AYECH"
+itc_team_id "xxxxxxxx"
+
+#ENV["FASTLANE_USER"] = "haj.ayech@gmail.com"
+#ENV["FASTLANE_PASSWORD"] = "zuvm-kiuq-jmmx-nzba"
+#ENV["FASTLANE_ITC_TEAM_ID"] = "122708545"
+ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = "xxxxxxxxxxxxxxxxxxxxxxxx"

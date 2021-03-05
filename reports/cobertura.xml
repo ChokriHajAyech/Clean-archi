@@ -1,0 +1,1719 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.5375722543352601" branch-rate="1.0000000000000000" lines-covered="744" lines-valid="1384" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1614966994" version="Slather 2.6.1">
+  <sources>
+    <source>/Users/mobiapps/Desktop/SeLoger</source>
+  </sources>
+  <packages>
+    <package name="SeLoger.Application" line-rate="0.9552238805970149" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="AppDelegate+DIViewModel" filename="SeLoger/Application/AppDelegate+DIViewModel.swift" line-rate="0.9495798319327731" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="9" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="8"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="8"/>
+            <line number="24" branch="false" hits="8"/>
+            <line number="25" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="8"/>
+            <line number="36" branch="false" hits="8"/>
+            <line number="37" branch="false" hits="8"/>
+            <line number="38" branch="false" hits="8"/>
+            <line number="39" branch="false" hits="8"/>
+            <line number="40" branch="false" hits="8"/>
+            <line number="41" branch="false" hits="8"/>
+            <line number="42" branch="false" hits="8"/>
+            <line number="43" branch="false" hits="8"/>
+            <line number="44" branch="false" hits="8"/>
+            <line number="45" branch="false" hits="8"/>
+            <line number="46" branch="false" hits="8"/>
+            <line number="47" branch="false" hits="8"/>
+            <line number="48" branch="false" hits="8"/>
+            <line number="49" branch="false" hits="8"/>
+            <line number="50" branch="false" hits="8"/>
+            <line number="51" branch="false" hits="8"/>
+            <line number="52" branch="false" hits="8"/>
+            <line number="53" branch="false" hits="8"/>
+            <line number="54" branch="false" hits="8"/>
+            <line number="55" branch="false" hits="8"/>
+            <line number="56" branch="false" hits="8"/>
+            <line number="57" branch="false" hits="8"/>
+            <line number="58" branch="false" hits="8"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="8"/>
+            <line number="62" branch="false" hits="8"/>
+            <line number="63" branch="false" hits="8"/>
+            <line number="64" branch="false" hits="8"/>
+            <line number="65" branch="false" hits="8"/>
+            <line number="66" branch="false" hits="8"/>
+            <line number="67" branch="false" hits="8"/>
+            <line number="68" branch="false" hits="8"/>
+            <line number="69" branch="false" hits="8"/>
+            <line number="70" branch="false" hits="8"/>
+            <line number="71" branch="false" hits="8"/>
+            <line number="72" branch="false" hits="8"/>
+            <line number="74" branch="false" hits="8"/>
+            <line number="75" branch="false" hits="8"/>
+            <line number="76" branch="false" hits="8"/>
+            <line number="77" branch="false" hits="8"/>
+            <line number="78" branch="false" hits="8"/>
+            <line number="79" branch="false" hits="8"/>
+            <line number="80" branch="false" hits="8"/>
+            <line number="81" branch="false" hits="8"/>
+            <line number="82" branch="false" hits="8"/>
+            <line number="83" branch="false" hits="8"/>
+            <line number="84" branch="false" hits="8"/>
+            <line number="85" branch="false" hits="8"/>
+            <line number="86" branch="false" hits="8"/>
+            <line number="87" branch="false" hits="24"/>
+            <line number="88" branch="false" hits="8"/>
+            <line number="89" branch="false" hits="8"/>
+            <line number="90" branch="false" hits="8"/>
+            <line number="91" branch="false" hits="8"/>
+            <line number="92" branch="false" hits="8"/>
+            <line number="93" branch="false" hits="8"/>
+            <line number="94" branch="false" hits="8"/>
+            <line number="95" branch="false" hits="8"/>
+            <line number="96" branch="false" hits="8"/>
+            <line number="97" branch="false" hits="8"/>
+            <line number="98" branch="false" hits="8"/>
+            <line number="99" branch="false" hits="8"/>
+            <line number="100" branch="false" hits="8"/>
+            <line number="101" branch="false" hits="8"/>
+            <line number="102" branch="false" hits="8"/>
+            <line number="103" branch="false" hits="8"/>
+            <line number="104" branch="false" hits="8"/>
+            <line number="105" branch="false" hits="8"/>
+            <line number="106" branch="false" hits="8"/>
+            <line number="107" branch="false" hits="8"/>
+            <line number="108" branch="false" hits="8"/>
+            <line number="109" branch="false" hits="8"/>
+            <line number="110" branch="false" hits="8"/>
+            <line number="111" branch="false" hits="8"/>
+            <line number="112" branch="false" hits="8"/>
+            <line number="113" branch="false" hits="8"/>
+            <line number="114" branch="false" hits="8"/>
+            <line number="115" branch="false" hits="8"/>
+            <line number="116" branch="false" hits="8"/>
+            <line number="117" branch="false" hits="8"/>
+            <line number="118" branch="false" hits="8"/>
+            <line number="119" branch="false" hits="8"/>
+            <line number="120" branch="false" hits="8"/>
+            <line number="121" branch="false" hits="8"/>
+            <line number="122" branch="false" hits="8"/>
+            <line number="123" branch="false" hits="0"/>
+            <line number="124" branch="false" hits="0"/>
+            <line number="125" branch="false" hits="8"/>
+            <line number="126" branch="false" hits="8"/>
+            <line number="127" branch="false" hits="8"/>
+            <line number="128" branch="false" hits="8"/>
+            <line number="129" branch="false" hits="8"/>
+          </lines>
+        </class>
+        <class name="AppDelegate" filename="SeLoger/Application/AppDelegate.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="10" branch="false" hits="8"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="24" branch="false" hits="8"/>
+            <line number="25" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Common.CustomView" line-rate="0.2545454545454545" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="FloatingActionButton" filename="SeLoger/Common/CustomView/FloatingActionButton.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="28"/>
+            <line number="8" branch="false" hits="28"/>
+            <line number="9" branch="false" hits="28"/>
+            <line number="10" branch="false" hits="28"/>
+            <line number="11" branch="false" hits="28"/>
+            <line number="12" branch="false" hits="28"/>
+            <line number="13" branch="false" hits="28"/>
+          </lines>
+        </class>
+        <class name="PhotoSliderView" filename="SeLoger/Common/CustomView/PhotoSliderView.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="false" hits="0"/>
+            <line number="73" branch="false" hits="0"/>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="false" hits="0"/>
+            <line number="76" branch="false" hits="0"/>
+            <line number="77" branch="false" hits="0"/>
+            <line number="78" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="RoundShadowView" filename="SeLoger/Common/CustomView/RoundShadowView.swift" line-rate="0.5000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="0"/>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="56"/>
+            <line number="10" branch="false" hits="56"/>
+            <line number="11" branch="false" hits="56"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="56"/>
+            <line number="20" branch="false" hits="56"/>
+            <line number="21" branch="false" hits="56"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="28"/>
+            <line number="30" branch="false" hits="28"/>
+            <line number="31" branch="false" hits="28"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="56"/>
+            <line number="39" branch="false" hits="56"/>
+            <line number="40" branch="false" hits="56"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="28"/>
+            <line number="47" branch="false" hits="28"/>
+            <line number="48" branch="false" hits="28"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="28"/>
+            <line number="56" branch="false" hits="28"/>
+            <line number="57" branch="false" hits="28"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="28"/>
+            <line number="65" branch="false" hits="28"/>
+            <line number="66" branch="false" hits="28"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Common.Enum" line-rate="0.7142857142857143" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="TabBarPageEnum" filename="SeLoger/Common/Enum/TabBarPageEnum.swift" line-rate="0.7142857142857143" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="10" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="24"/>
+            <line number="22" branch="false" hits="24"/>
+            <line number="23" branch="false" hits="24"/>
+            <line number="24" branch="false" hits="8"/>
+            <line number="25" branch="false" hits="24"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="24"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="24"/>
+            <line number="30" branch="false" hits="24"/>
+            <line number="32" branch="false" hits="24"/>
+            <line number="33" branch="false" hits="24"/>
+            <line number="34" branch="false" hits="24"/>
+            <line number="35" branch="false" hits="8"/>
+            <line number="36" branch="false" hits="24"/>
+            <line number="37" branch="false" hits="8"/>
+            <line number="38" branch="false" hits="24"/>
+            <line number="39" branch="false" hits="8"/>
+            <line number="40" branch="false" hits="24"/>
+            <line number="41" branch="false" hits="24"/>
+            <line number="43" branch="false" hits="64"/>
+            <line number="44" branch="false" hits="64"/>
+            <line number="45" branch="false" hits="64"/>
+            <line number="46" branch="false" hits="24"/>
+            <line number="47" branch="false" hits="64"/>
+            <line number="48" branch="false" hits="24"/>
+            <line number="49" branch="false" hits="64"/>
+            <line number="50" branch="false" hits="16"/>
+            <line number="51" branch="false" hits="64"/>
+            <line number="52" branch="false" hits="64"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Common.Extension" line-rate="0.6612903225806451" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="Array+Extension" filename="SeLoger/Common/Extension/Array+Extension.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="3" branch="false" hits="0"/>
+            <line number="4" branch="false" hits="0"/>
+            <line number="5" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="Container+Extensions" filename="SeLoger/Common/Extension/Container+Extensions.swift" line-rate="0.9333333333333333" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="9" branch="false" hits="40"/>
+            <line number="10" branch="false" hits="40"/>
+            <line number="11" branch="false" hits="32"/>
+            <line number="12" branch="false" hits="32"/>
+            <line number="13" branch="false" hits="32"/>
+            <line number="14" branch="false" hits="32"/>
+            <line number="15" branch="false" hits="32"/>
+            <line number="16" branch="false" hits="32"/>
+            <line number="17" branch="false" hits="32"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="32"/>
+            <line number="20" branch="false" hits="32"/>
+            <line number="21" branch="false" hits="32"/>
+            <line number="22" branch="false" hits="32"/>
+            <line number="23" branch="false" hits="40"/>
+          </lines>
+        </class>
+        <class name="ObservableType+Extension" filename="SeLoger/Common/Extension/ObservableType+Extension.swift" line-rate="0.4615384615384616" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="10" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="33"/>
+            <line number="14" branch="false" hits="33"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="33"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+          </lines>
+        </class>
+        <class name="Storyboarded" filename="SeLoger/Common/Extension/Storyboarded.swift" line-rate="0.4000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="24"/>
+            <line number="31" branch="false" hits="24"/>
+            <line number="32" branch="false" hits="24"/>
+            <line number="36" branch="false" hits="8"/>
+            <line number="37" branch="false" hits="8"/>
+            <line number="38" branch="false" hits="8"/>
+          </lines>
+        </class>
+        <class name="UIImageView+Extension" filename="SeLoger/Common/Extension/UIImageView+Extension.swift" line-rate="0.9375000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="42"/>
+            <line number="8" branch="false" hits="42"/>
+            <line number="9" branch="false" hits="21"/>
+            <line number="10" branch="false" hits="21"/>
+            <line number="11" branch="false" hits="21"/>
+            <line number="12" branch="false" hits="21"/>
+            <line number="13" branch="false" hits="21"/>
+            <line number="14" branch="false" hits="21"/>
+            <line number="15" branch="false" hits="21"/>
+            <line number="16" branch="false" hits="21"/>
+            <line number="17" branch="false" hits="21"/>
+            <line number="18" branch="false" hits="21"/>
+            <line number="19" branch="false" hits="21"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="21"/>
+            <line number="22" branch="false" hits="21"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Common.Mappers" line-rate="0.4137931034482759" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="HousingDataCellMapper" filename="SeLoger/Common/Mappers/HousingDataCellMapper.swift" line-rate="0.6666666666666666" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="33"/>
+            <line number="8" branch="false" hits="33"/>
+            <line number="9" branch="false" hits="33"/>
+            <line number="10" branch="false" hits="33"/>
+            <line number="11" branch="false" hits="33"/>
+            <line number="12" branch="false" hits="33"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="HousingListDAOMapper" filename="SeLoger/Common/Mappers/HousingListDAOMapper.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="HousingMapper" filename="SeLoger/Common/Mappers/HousingMapper.swift" line-rate="0.6666666666666666" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="40"/>
+            <line number="12" branch="false" hits="40"/>
+            <line number="13" branch="false" hits="40"/>
+            <line number="14" branch="false" hits="40"/>
+            <line number="15" branch="false" hits="40"/>
+            <line number="16" branch="false" hits="40"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Coordinator" line-rate="0.4655172413793103" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="AppCoordinator" filename="SeLoger/Coordinator/AppCoordinator.swift" line-rate="0.4634146341463415" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="8"/>
+            <line number="24" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="8"/>
+            <line number="36" branch="false" hits="8"/>
+            <line number="37" branch="false" hits="8"/>
+            <line number="38" branch="false" hits="8"/>
+            <line number="39" branch="false" hits="8"/>
+            <line number="40" branch="false" hits="8"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="Coordinator" filename="SeLoger/Coordinator/Coordinator.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="FavorisCoordinator" filename="SeLoger/Coordinator/FavorisCoordinator.swift" line-rate="0.5882352941176471" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="HomeCoordinator" filename="SeLoger/Coordinator/HomeCoordinator.swift" line-rate="0.2173913043478261" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="8"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="8"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="HousingDetailsCoordinator" filename="SeLoger/Coordinator/HousingDetailsCoordinator.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="9" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SettingsCoordinator" filename="SeLoger/Coordinator/SettingsCoordinator.swift" line-rate="0.7142857142857143" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SplashCoordinator" filename="SeLoger/Coordinator/SplashCoordinator.swift" line-rate="0.5666666666666667" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="8"/>
+            <line number="31" branch="false" hits="8"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="TabCoordinator" filename="SeLoger/Coordinator/TabCoordinator.swift" line-rate="0.7241379310344828" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="16"/>
+            <line number="20" branch="false" hits="24"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="8"/>
+            <line number="31" branch="false" hits="8"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="24"/>
+            <line number="35" branch="false" hits="24"/>
+            <line number="36" branch="false" hits="24"/>
+            <line number="37" branch="false" hits="24"/>
+            <line number="38" branch="false" hits="24"/>
+            <line number="39" branch="false" hits="24"/>
+            <line number="40" branch="false" hits="24"/>
+            <line number="41" branch="false" hits="24"/>
+            <line number="42" branch="false" hits="24"/>
+            <line number="43" branch="false" hits="8"/>
+            <line number="44" branch="false" hits="8"/>
+            <line number="45" branch="false" hits="8"/>
+            <line number="46" branch="false" hits="24"/>
+            <line number="47" branch="false" hits="8"/>
+            <line number="48" branch="false" hits="8"/>
+            <line number="49" branch="false" hits="8"/>
+            <line number="50" branch="false" hits="24"/>
+            <line number="51" branch="false" hits="8"/>
+            <line number="52" branch="false" hits="8"/>
+            <line number="53" branch="false" hits="8"/>
+            <line number="54" branch="false" hits="24"/>
+            <line number="55" branch="false" hits="24"/>
+            <line number="56" branch="false" hits="24"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="72" branch="false" hits="0"/>
+            <line number="73" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Data.Model" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="ApiErrorModel" filename="SeLoger/Data/Model/ApiErrorModel.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="10" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="ApiResult" filename="SeLoger/Data/Model/ApiResult.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="0"/>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="10" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Data.PersistentStorages" line-rate="0.0769230769230769" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="HousingListCoredataModel" filename="SeLoger/Data/PersistentStorages/HousingListCoredataModel.swift" line-rate="0.0769230769230769" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="8"/>
+            <line number="41" branch="false" hits="8"/>
+            <line number="42" branch="false" hits="8"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="false" hits="0"/>
+            <line number="68" branch="false" hits="0"/>
+            <line number="69" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Data.Repositories" line-rate="0.2982456140350877" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="HousingRepositoryImpl" filename="SeLoger/Data/Repositories/HousingRepositoryImpl.swift" line-rate="0.2982456140350877" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="9"/>
+            <line number="14" branch="false" hits="9"/>
+            <line number="15" branch="false" hits="9"/>
+            <line number="16" branch="false" hits="9"/>
+            <line number="17" branch="false" hits="9"/>
+            <line number="20" branch="false" hits="9"/>
+            <line number="21" branch="false" hits="9"/>
+            <line number="22" branch="false" hits="9"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="8"/>
+            <line number="31" branch="false" hits="8"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="7"/>
+            <line number="35" branch="false" hits="7"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="7"/>
+            <line number="39" branch="false" hits="7"/>
+            <line number="40" branch="false" hits="8"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="68" branch="false" hits="0"/>
+            <line number="69" branch="false" hits="0"/>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="72" branch="false" hits="0"/>
+            <line number="73" branch="false" hits="0"/>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="false" hits="0"/>
+            <line number="76" branch="false" hits="0"/>
+            <line number="77" branch="false" hits="0"/>
+            <line number="78" branch="false" hits="0"/>
+            <line number="79" branch="false" hits="0"/>
+            <line number="80" branch="false" hits="0"/>
+            <line number="81" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Data.Services" line-rate="0.5161290322580645" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="HousingServiceImpl" filename="SeLoger/Data/Services/HousingServiceImpl.swift" line-rate="0.5161290322580645" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="8"/>
+            <line number="9" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="32"/>
+            <line number="18" branch="false" hits="32"/>
+            <line number="19" branch="false" hits="32"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Entities" line-rate="0.5000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="AppResult" filename="SeLoger/Entities/AppResult.swift" line-rate="0.5000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="0"/>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="10" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="5"/>
+            <line number="13" branch="false" hits="5"/>
+            <line number="14" branch="false" hits="5"/>
+            <line number="15" branch="false" hits="5"/>
+            <line number="16" branch="false" hits="5"/>
+            <line number="17" branch="false" hits="5"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Infrastructure.API" line-rate="0.7692307692307693" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="HousingApi" filename="SeLoger/Infrastructure/API/HousingApi.swift" line-rate="0.6666666666666666" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="8"/>
+            <line number="9" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="NetworkProvider" filename="SeLoger/Infrastructure/API/NetworkProvider.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="4" branch="false" hits="8"/>
+            <line number="5" branch="false" hits="8"/>
+            <line number="6" branch="false" hits="8"/>
+            <line number="7" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Infrastructure.Network" line-rate="0.5306122448979592" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="APIClient" filename="SeLoger/Infrastructure/Network/APIClient.swift" line-rate="0.5306122448979592" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="8"/>
+            <line number="7" branch="false" hits="8"/>
+            <line number="8" branch="false" hits="8"/>
+            <line number="9" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="8"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="8"/>
+            <line number="24" branch="false" hits="8"/>
+            <line number="25" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="8"/>
+            <line number="47" branch="false" hits="8"/>
+            <line number="48" branch="false" hits="8"/>
+            <line number="49" branch="false" hits="8"/>
+            <line number="50" branch="false" hits="8"/>
+            <line number="51" branch="false" hits="8"/>
+            <line number="52" branch="false" hits="8"/>
+            <line number="53" branch="false" hits="8"/>
+            <line number="54" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Infrastructure.Network.APIRequest" line-rate="0.6153846153846154" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="APIRequest" filename="SeLoger/Infrastructure/Network/APIRequest/APIRequest.swift" line-rate="0.8000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="16"/>
+            <line number="31" branch="false" hits="16"/>
+            <line number="32" branch="false" hits="16"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+          </lines>
+        </class>
+        <class name="HousingListRequest" filename="SeLoger/Infrastructure/Network/APIRequest/HousingListRequest.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="4" branch="false" hits="8"/>
+            <line number="6" branch="false" hits="8"/>
+            <line number="7" branch="false" hits="8"/>
+            <line number="8" branch="false" hits="8"/>
+            <line number="9" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="8"/>
+            <line number="12" branch="false" hits="8"/>
+          </lines>
+        </class>
+        <class name="HousingRequest" filename="SeLoger/Infrastructure/Network/APIRequest/HousingRequest.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="4" branch="false" hits="0"/>
+            <line number="6" branch="false" hits="0"/>
+            <line number="7" branch="false" hits="0"/>
+            <line number="8" branch="false" hits="0"/>
+            <line number="9" branch="false" hits="0"/>
+            <line number="10" branch="false" hits="0"/>
+            <line number="11" branch="false" hits="0"/>
+            <line number="12" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger" line-rate="0.7741935483870968" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="PersistenceManager" filename="SeLoger/PersistenceManager.swift" line-rate="0.7741935483870968" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="8"/>
+            <line number="9" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="8"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="19" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="8"/>
+            <line number="31" branch="false" hits="8"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="8"/>
+            <line number="36" branch="false" hits="8"/>
+            <line number="37" branch="false" hits="8"/>
+            <line number="38" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Presentation.View" line-rate="0.3804347826086957" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="BaseViewController" filename="SeLoger/Presentation/View/BaseViewController.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="32"/>
+            <line number="7" branch="false" hits="32"/>
+            <line number="8" branch="false" hits="32"/>
+          </lines>
+        </class>
+        <class name="FavorisViewController" filename="SeLoger/Presentation/View/FavorisViewController.swift" line-rate="0.0270270270270270" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="9" branch="false" hits="8"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="HomeViewController" filename="SeLoger/Presentation/View/HomeViewController.swift" line-rate="0.9687500000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="9" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="8"/>
+            <line number="16" branch="false" hits="8"/>
+            <line number="17" branch="false" hits="8"/>
+            <line number="18" branch="false" hits="8"/>
+            <line number="20" branch="false" hits="8"/>
+            <line number="21" branch="false" hits="8"/>
+            <line number="22" branch="false" hits="8"/>
+            <line number="23" branch="false" hits="8"/>
+            <line number="24" branch="false" hits="8"/>
+            <line number="25" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="8"/>
+            <line number="31" branch="false" hits="8"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="8"/>
+            <line number="36" branch="false" hits="8"/>
+            <line number="37" branch="false" hits="8"/>
+            <line number="38" branch="false" hits="8"/>
+            <line number="39" branch="false" hits="8"/>
+            <line number="40" branch="false" hits="8"/>
+            <line number="41" branch="false" hits="8"/>
+            <line number="42" branch="false" hits="8"/>
+            <line number="43" branch="false" hits="8"/>
+            <line number="44" branch="false" hits="8"/>
+            <line number="45" branch="false" hits="42"/>
+            <line number="46" branch="false" hits="42"/>
+            <line number="47" branch="false" hits="42"/>
+            <line number="48" branch="false" hits="42"/>
+            <line number="49" branch="false" hits="35"/>
+            <line number="50" branch="false" hits="35"/>
+            <line number="51" branch="false" hits="35"/>
+            <line number="52" branch="false" hits="35"/>
+            <line number="53" branch="false" hits="35"/>
+            <line number="54" branch="false" hits="35"/>
+            <line number="55" branch="false" hits="42"/>
+            <line number="56" branch="false" hits="8"/>
+            <line number="57" branch="false" hits="8"/>
+            <line number="58" branch="false" hits="8"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="8"/>
+            <line number="62" branch="false" hits="8"/>
+            <line number="63" branch="false" hits="8"/>
+            <line number="64" branch="false" hits="8"/>
+            <line number="65" branch="false" hits="8"/>
+            <line number="66" branch="false" hits="8"/>
+            <line number="67" branch="false" hits="8"/>
+            <line number="68" branch="false" hits="8"/>
+            <line number="69" branch="false" hits="8"/>
+            <line number="70" branch="false" hits="8"/>
+            <line number="71" branch="false" hits="8"/>
+            <line number="72" branch="false" hits="8"/>
+            <line number="73" branch="false" hits="8"/>
+            <line number="74" branch="false" hits="8"/>
+            <line number="75" branch="false" hits="8"/>
+            <line number="76" branch="false" hits="8"/>
+            <line number="77" branch="false" hits="8"/>
+            <line number="78" branch="false" hits="8"/>
+            <line number="79" branch="false" hits="8"/>
+          </lines>
+        </class>
+        <class name="HousingDetailsViewController" filename="SeLoger/Presentation/View/HousingDetailsViewController.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="16" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+            <line number="55" branch="false" hits="0"/>
+            <line number="56" branch="false" hits="0"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="0"/>
+            <line number="60" branch="false" hits="0"/>
+            <line number="61" branch="false" hits="0"/>
+            <line number="62" branch="false" hits="0"/>
+            <line number="63" branch="false" hits="0"/>
+            <line number="64" branch="false" hits="0"/>
+            <line number="65" branch="false" hits="0"/>
+            <line number="66" branch="false" hits="0"/>
+            <line number="67" branch="false" hits="0"/>
+            <line number="68" branch="false" hits="0"/>
+            <line number="69" branch="false" hits="0"/>
+            <line number="70" branch="false" hits="0"/>
+            <line number="71" branch="false" hits="0"/>
+            <line number="72" branch="false" hits="0"/>
+            <line number="73" branch="false" hits="0"/>
+            <line number="74" branch="false" hits="0"/>
+            <line number="75" branch="false" hits="0"/>
+            <line number="76" branch="false" hits="0"/>
+            <line number="77" branch="false" hits="0"/>
+            <line number="78" branch="false" hits="0"/>
+            <line number="79" branch="false" hits="0"/>
+            <line number="80" branch="false" hits="0"/>
+            <line number="81" branch="false" hits="0"/>
+            <line number="82" branch="false" hits="0"/>
+            <line number="83" branch="false" hits="0"/>
+            <line number="84" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SettingsViewController" filename="SeLoger/Presentation/View/SettingsViewController.swift" line-rate="0.0714285714285714" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="11" branch="false" hits="8"/>
+            <line number="13" branch="false" hits="0"/>
+            <line number="14" branch="false" hits="0"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SplashViewController" filename="SeLoger/Presentation/View/SplashViewController.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="8" branch="false" hits="8"/>
+            <line number="9" branch="false" hits="8"/>
+            <line number="10" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Presentation.View.Cell" line-rate="0.9677419354838710" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="HomeCell" filename="SeLoger/Presentation/View/Cell/HomeCell.swift" line-rate="0.9677419354838710" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="25" branch="false" hits="56"/>
+            <line number="26" branch="false" hits="56"/>
+            <line number="27" branch="false" hits="14"/>
+            <line number="28" branch="false" hits="56"/>
+            <line number="29" branch="false" hits="56"/>
+            <line number="30" branch="false" hits="42"/>
+            <line number="31" branch="false" hits="56"/>
+            <line number="32" branch="false" hits="56"/>
+            <line number="35" branch="false" hits="28"/>
+            <line number="36" branch="false" hits="28"/>
+            <line number="37" branch="false" hits="28"/>
+            <line number="38" branch="false" hits="28"/>
+            <line number="39" branch="false" hits="28"/>
+            <line number="40" branch="false" hits="28"/>
+            <line number="42" branch="false" hits="14"/>
+            <line number="43" branch="false" hits="14"/>
+            <line number="44" branch="false" hits="14"/>
+            <line number="45" branch="false" hits="14"/>
+            <line number="46" branch="false" hits="14"/>
+            <line number="47" branch="false" hits="14"/>
+            <line number="48" branch="false" hits="14"/>
+            <line number="49" branch="false" hits="14"/>
+            <line number="50" branch="false" hits="14"/>
+            <line number="51" branch="false" hits="14"/>
+            <line number="53" branch="false" hits="42"/>
+            <line number="54" branch="false" hits="42"/>
+            <line number="55" branch="false" hits="42"/>
+            <line number="56" branch="false" hits="42"/>
+            <line number="57" branch="false" hits="0"/>
+            <line number="58" branch="false" hits="0"/>
+            <line number="59" branch="false" hits="42"/>
+            <line number="60" branch="false" hits="42"/>
+            <line number="62" branch="false" hits="42"/>
+            <line number="63" branch="false" hits="42"/>
+            <line number="64" branch="false" hits="42"/>
+            <line number="65" branch="false" hits="42"/>
+            <line number="66" branch="false" hits="42"/>
+            <line number="67" branch="false" hits="42"/>
+            <line number="68" branch="false" hits="42"/>
+            <line number="69" branch="false" hits="42"/>
+            <line number="70" branch="false" hits="42"/>
+            <line number="71" branch="false" hits="42"/>
+            <line number="72" branch="false" hits="42"/>
+            <line number="73" branch="false" hits="42"/>
+            <line number="74" branch="false" hits="42"/>
+            <line number="75" branch="false" hits="42"/>
+            <line number="76" branch="false" hits="42"/>
+            <line number="77" branch="false" hits="42"/>
+            <line number="79" branch="false" hits="42"/>
+            <line number="80" branch="false" hits="42"/>
+            <line number="81" branch="false" hits="42"/>
+            <line number="82" branch="false" hits="42"/>
+            <line number="83" branch="false" hits="42"/>
+            <line number="84" branch="false" hits="42"/>
+            <line number="85" branch="false" hits="42"/>
+            <line number="86" branch="false" hits="42"/>
+            <line number="87" branch="false" hits="42"/>
+            <line number="88" branch="false" hits="42"/>
+            <line number="89" branch="false" hits="42"/>
+            <line number="90" branch="false" hits="42"/>
+            <line number="91" branch="false" hits="42"/>
+            <line number="92" branch="false" hits="42"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.Presentation.ViewModel" line-rate="0.5784753363228700" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="BaseViewModel" filename="SeLoger/Presentation/ViewModel/BaseViewModel.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="32"/>
+            <line number="7" branch="false" hits="32"/>
+            <line number="8" branch="false" hits="32"/>
+          </lines>
+        </class>
+        <class name="FavoritesViewModel" filename="SeLoger/Presentation/ViewModel/FavoritesViewModel.swift" line-rate="0.6071428571428571" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="25" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="8"/>
+            <line number="31" branch="false" hits="8"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="8"/>
+            <line number="36" branch="false" hits="8"/>
+            <line number="37" branch="false" hits="8"/>
+            <line number="38" branch="false" hits="8"/>
+            <line number="39" branch="false" hits="8"/>
+            <line number="40" branch="false" hits="8"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="0"/>
+            <line number="46" branch="false" hits="0"/>
+            <line number="47" branch="false" hits="0"/>
+            <line number="48" branch="false" hits="0"/>
+            <line number="49" branch="false" hits="0"/>
+            <line number="50" branch="false" hits="0"/>
+            <line number="51" branch="false" hits="0"/>
+            <line number="52" branch="false" hits="8"/>
+            <line number="53" branch="false" hits="8"/>
+          </lines>
+        </class>
+        <class name="HomeViewModel" filename="SeLoger/Presentation/ViewModel/HomeViewModel.swift" line-rate="0.6642335766423357" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="32" branch="false" hits="9"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="8"/>
+            <line number="37" branch="false" hits="9"/>
+            <line number="38" branch="false" hits="9"/>
+            <line number="39" branch="false" hits="9"/>
+            <line number="41" branch="false" hits="9"/>
+            <line number="44" branch="false" hits="9"/>
+            <line number="45" branch="false" hits="9"/>
+            <line number="46" branch="false" hits="9"/>
+            <line number="47" branch="false" hits="9"/>
+            <line number="48" branch="false" hits="9"/>
+            <line number="49" branch="false" hits="9"/>
+            <line number="50" branch="false" hits="9"/>
+            <line number="51" branch="false" hits="9"/>
+            <line number="52" branch="false" hits="9"/>
+            <line number="53" branch="false" hits="9"/>
+            <line number="54" branch="false" hits="9"/>
+            <line number="55" branch="false" hits="9"/>
+            <line number="56" branch="false" hits="9"/>
+            <line number="57" branch="false" hits="9"/>
+            <line number="58" branch="false" hits="9"/>
+            <line number="59" branch="false" hits="9"/>
+            <line number="60" branch="false" hits="9"/>
+            <line number="61" branch="false" hits="9"/>
+            <line number="62" branch="false" hits="9"/>
+            <line number="63" branch="false" hits="9"/>
+            <line number="64" branch="false" hits="9"/>
+            <line number="65" branch="false" hits="9"/>
+            <line number="66" branch="false" hits="9"/>
+            <line number="67" branch="false" hits="9"/>
+            <line number="68" branch="false" hits="9"/>
+            <line number="69" branch="false" hits="9"/>
+            <line number="70" branch="false" hits="9"/>
+            <line number="71" branch="false" hits="9"/>
+            <line number="72" branch="false" hits="9"/>
+            <line number="73" branch="false" hits="9"/>
+            <line number="74" branch="false" hits="9"/>
+            <line number="75" branch="false" hits="9"/>
+            <line number="76" branch="false" hits="9"/>
+            <line number="77" branch="false" hits="9"/>
+            <line number="78" branch="false" hits="9"/>
+            <line number="79" branch="false" hits="9"/>
+            <line number="80" branch="false" hits="9"/>
+            <line number="82" branch="false" hits="9"/>
+            <line number="83" branch="false" hits="9"/>
+            <line number="84" branch="false" hits="9"/>
+            <line number="85" branch="false" hits="9"/>
+            <line number="86" branch="false" hits="9"/>
+            <line number="87" branch="false" hits="9"/>
+            <line number="88" branch="false" hits="33"/>
+            <line number="89" branch="false" hits="33"/>
+            <line number="90" branch="false" hits="33"/>
+            <line number="91" branch="false" hits="9"/>
+            <line number="92" branch="false" hits="9"/>
+            <line number="93" branch="false" hits="0"/>
+            <line number="94" branch="false" hits="9"/>
+            <line number="95" branch="false" hits="9"/>
+            <line number="96" branch="false" hits="9"/>
+            <line number="97" branch="false" hits="9"/>
+            <line number="98" branch="false" hits="9"/>
+            <line number="99" branch="false" hits="9"/>
+            <line number="100" branch="false" hits="9"/>
+            <line number="101" branch="false" hits="8"/>
+            <line number="102" branch="false" hits="8"/>
+            <line number="103" branch="false" hits="8"/>
+            <line number="104" branch="false" hits="8"/>
+            <line number="105" branch="false" hits="8"/>
+            <line number="106" branch="false" hits="1"/>
+            <line number="107" branch="false" hits="1"/>
+            <line number="108" branch="false" hits="1"/>
+            <line number="109" branch="false" hits="1"/>
+            <line number="110" branch="false" hits="8"/>
+            <line number="111" branch="false" hits="8"/>
+            <line number="112" branch="false" hits="0"/>
+            <line number="113" branch="false" hits="8"/>
+            <line number="114" branch="false" hits="8"/>
+            <line number="115" branch="false" hits="9"/>
+            <line number="116" branch="false" hits="9"/>
+            <line number="117" branch="false" hits="9"/>
+            <line number="120" branch="false" hits="9"/>
+            <line number="121" branch="false" hits="9"/>
+            <line number="122" branch="false" hits="9"/>
+            <line number="123" branch="false" hits="9"/>
+            <line number="124" branch="false" hits="0"/>
+            <line number="125" branch="false" hits="0"/>
+            <line number="126" branch="false" hits="0"/>
+            <line number="127" branch="false" hits="0"/>
+            <line number="128" branch="false" hits="0"/>
+            <line number="129" branch="false" hits="0"/>
+            <line number="130" branch="false" hits="0"/>
+            <line number="131" branch="false" hits="0"/>
+            <line number="132" branch="false" hits="0"/>
+            <line number="133" branch="false" hits="0"/>
+            <line number="134" branch="false" hits="0"/>
+            <line number="135" branch="false" hits="0"/>
+            <line number="136" branch="false" hits="0"/>
+            <line number="137" branch="false" hits="0"/>
+            <line number="138" branch="false" hits="0"/>
+            <line number="139" branch="false" hits="0"/>
+            <line number="140" branch="false" hits="0"/>
+            <line number="141" branch="false" hits="0"/>
+            <line number="142" branch="false" hits="0"/>
+            <line number="143" branch="false" hits="0"/>
+            <line number="144" branch="false" hits="0"/>
+            <line number="145" branch="false" hits="0"/>
+            <line number="146" branch="false" hits="0"/>
+            <line number="147" branch="false" hits="0"/>
+            <line number="148" branch="false" hits="0"/>
+            <line number="149" branch="false" hits="0"/>
+            <line number="150" branch="false" hits="0"/>
+            <line number="151" branch="false" hits="0"/>
+            <line number="152" branch="false" hits="0"/>
+            <line number="153" branch="false" hits="0"/>
+            <line number="154" branch="false" hits="9"/>
+            <line number="156" branch="false" hits="0"/>
+            <line number="157" branch="false" hits="0"/>
+            <line number="158" branch="false" hits="0"/>
+            <line number="161" branch="false" hits="9"/>
+            <line number="162" branch="false" hits="9"/>
+            <line number="163" branch="false" hits="9"/>
+            <line number="164" branch="false" hits="9"/>
+            <line number="165" branch="false" hits="9"/>
+            <line number="166" branch="false" hits="9"/>
+            <line number="167" branch="false" hits="0"/>
+            <line number="168" branch="false" hits="0"/>
+            <line number="169" branch="false" hits="0"/>
+            <line number="170" branch="false" hits="0"/>
+            <line number="171" branch="false" hits="0"/>
+            <line number="172" branch="false" hits="0"/>
+            <line number="173" branch="false" hits="0"/>
+            <line number="174" branch="false" hits="0"/>
+            <line number="175" branch="false" hits="0"/>
+            <line number="176" branch="false" hits="0"/>
+            <line number="177" branch="false" hits="0"/>
+            <line number="178" branch="false" hits="9"/>
+          </lines>
+        </class>
+        <class name="HousingDetailsViewModel" filename="SeLoger/Presentation/ViewModel/HousingDetailsViewModel.swift" line-rate="0.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="15" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="22" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+            <line number="26" branch="false" hits="0"/>
+            <line number="27" branch="false" hits="0"/>
+            <line number="28" branch="false" hits="0"/>
+            <line number="29" branch="false" hits="0"/>
+            <line number="30" branch="false" hits="0"/>
+            <line number="31" branch="false" hits="0"/>
+            <line number="32" branch="false" hits="0"/>
+            <line number="33" branch="false" hits="0"/>
+            <line number="34" branch="false" hits="0"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SettingsViewModel" filename="SeLoger/Presentation/ViewModel/SettingsViewModel.swift" line-rate="0.5357142857142857" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="22" branch="false" hits="8"/>
+            <line number="25" branch="false" hits="8"/>
+            <line number="26" branch="false" hits="8"/>
+            <line number="27" branch="false" hits="8"/>
+            <line number="28" branch="false" hits="8"/>
+            <line number="29" branch="false" hits="8"/>
+            <line number="30" branch="false" hits="8"/>
+            <line number="31" branch="false" hits="8"/>
+            <line number="32" branch="false" hits="8"/>
+            <line number="33" branch="false" hits="8"/>
+            <line number="34" branch="false" hits="8"/>
+            <line number="35" branch="false" hits="0"/>
+            <line number="36" branch="false" hits="0"/>
+            <line number="37" branch="false" hits="0"/>
+            <line number="38" branch="false" hits="0"/>
+            <line number="39" branch="false" hits="0"/>
+            <line number="40" branch="false" hits="0"/>
+            <line number="41" branch="false" hits="0"/>
+            <line number="42" branch="false" hits="0"/>
+            <line number="43" branch="false" hits="0"/>
+            <line number="44" branch="false" hits="0"/>
+            <line number="45" branch="false" hits="8"/>
+            <line number="46" branch="false" hits="8"/>
+            <line number="47" branch="false" hits="8"/>
+            <line number="48" branch="false" hits="8"/>
+            <line number="52" branch="false" hits="0"/>
+            <line number="53" branch="false" hits="0"/>
+            <line number="54" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="SplashViewModel" filename="SeLoger/Presentation/ViewModel/SplashViewModel.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="8"/>
+            <line number="8" branch="false" hits="8"/>
+            <line number="9" branch="false" hits="8"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="SeLoger.UseCases" line-rate="0.5000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="HousingDBUseCaseImpl" filename="SeLoger/UseCases/HousingDBUseCaseImpl.swift" line-rate="0.4000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="6" branch="false" hits="24"/>
+            <line number="7" branch="false" hits="24"/>
+            <line number="8" branch="false" hits="24"/>
+            <line number="10" branch="false" hits="8"/>
+            <line number="11" branch="false" hits="8"/>
+            <line number="12" branch="false" hits="8"/>
+            <line number="15" branch="false" hits="0"/>
+            <line number="16" branch="false" hits="0"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+            <line number="20" branch="false" hits="0"/>
+            <line number="21" branch="false" hits="0"/>
+            <line number="23" branch="false" hits="0"/>
+            <line number="24" branch="false" hits="0"/>
+            <line number="25" branch="false" hits="0"/>
+          </lines>
+        </class>
+        <class name="HousingUseCaseImpl" filename="SeLoger/UseCases/HousingUseCaseImpl.swift" line-rate="0.6666666666666666" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="7" branch="false" hits="9"/>
+            <line number="8" branch="false" hits="9"/>
+            <line number="9" branch="false" hits="9"/>
+            <line number="12" branch="false" hits="9"/>
+            <line number="13" branch="false" hits="9"/>
+            <line number="14" branch="false" hits="9"/>
+            <line number="17" branch="false" hits="0"/>
+            <line number="18" branch="false" hits="0"/>
+            <line number="19" branch="false" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

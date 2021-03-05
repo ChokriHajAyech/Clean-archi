@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000782">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: mkdir ../reports || true" time="0.019752">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: mkdir ../dist || true" time="0.007207">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: scan" time="195.809961">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: slather" time="10.43607">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
