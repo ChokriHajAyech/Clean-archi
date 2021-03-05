@@ -81,7 +81,7 @@ class HomeViewModel: BaseViewModel<HomeCoordinator>, ViewModelType {
 
     func getAllHousingData() -> Driver<[HousingList]> {
         appearSubject.flatMap({ [self] list -> Observable<[HousingList]> in
-            return housingUseCase.housinglistings()
+			return housingUseCase.housinglistings()
                 .map { [self] data -> [HousingList] in
                     switch data {
                     case .success(let list):

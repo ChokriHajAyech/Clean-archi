@@ -66,6 +66,9 @@
 		808D426725F0E4A600912250 /* Housing.json in Resources */ = {isa = PBXBuildFile; fileRef = 808D426625F0E4A600912250 /* Housing.json */; };
 		808D427325F0F00900912250 /* HousingRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D427225F0F00900912250 /* HousingRepositoryTests.swift */; };
 		808D428025F0F0EC00912250 /* HousingServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D427F25F0F0EC00912250 /* HousingServiceMock.swift */; };
+		808D42CD25F11B6900912250 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D42CC25F11B6900912250 /* HomeViewModelTests.swift */; };
+		808D42DA25F11C7500912250 /* HousingUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D42D925F11C7500912250 /* HousingUseCaseMock.swift */; };
+		808D42E225F11D4400912250 /* housingDBUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D42E125F11D4400912250 /* housingDBUseCaseMock.swift */; };
 		809B2771256FBDD80004D595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809B2770256FBDD80004D595 /* AppDelegate.swift */; };
 		809B2775256FBDD80004D595 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809B2774256FBDD80004D595 /* HomeViewController.swift */; };
 		809B277A256FBDDC0004D595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809B2779256FBDDC0004D595 /* Assets.xcassets */; };
@@ -171,6 +174,9 @@
 		808D426625F0E4A600912250 /* Housing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Housing.json; sourceTree = "<group>"; };
 		808D427225F0F00900912250 /* HousingRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingRepositoryTests.swift; sourceTree = "<group>"; };
 		808D427F25F0F0EC00912250 /* HousingServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingServiceMock.swift; sourceTree = "<group>"; };
+		808D42CC25F11B6900912250 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		808D42D925F11C7500912250 /* HousingUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingUseCaseMock.swift; sourceTree = "<group>"; };
+		808D42E125F11D4400912250 /* housingDBUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = housingDBUseCaseMock.swift; sourceTree = "<group>"; };
 		809B276D256FBDD80004D595 /* SeLoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeLoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809B2770256FBDD80004D595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		809B2774256FBDD80004D595 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -515,6 +521,7 @@
 		808D425325F0D4F400912250 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				808D42D525F11C3300912250 /* Domain */,
 				808D427E25F0F0E000912250 /* Data */,
 				808D426625F0E4A600912250 /* Housing.json */,
 				808D425C25F0E3EF00912250 /* MockedData.swift */,
@@ -533,10 +540,51 @@
 		808D427E25F0F0E000912250 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				808D425425F0D50500912250 /* HousingRepositoryMock.swift */,
+				808D42D825F11C5700912250 /* Service */,
+				808D42D725F11C4300912250 /* Repository */,
 				808D427F25F0F0EC00912250 /* HousingServiceMock.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		808D42A225F1176600912250 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				808D42CC25F11B6900912250 /* HomeViewModelTests.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		808D42D425F11C1F00912250 /* UsesCases */ = {
+			isa = PBXGroup;
+			children = (
+				808D42D925F11C7500912250 /* HousingUseCaseMock.swift */,
+				808D42E125F11D4400912250 /* housingDBUseCaseMock.swift */,
+			);
+			path = UsesCases;
+			sourceTree = "<group>";
+		};
+		808D42D525F11C3300912250 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				808D42D425F11C1F00912250 /* UsesCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		808D42D725F11C4300912250 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		808D42D825F11C5700912250 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				808D425425F0D50500912250 /* HousingRepositoryMock.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		809B2764256FBDD80004D595 = {
@@ -584,6 +632,7 @@
 			isa = PBXGroup;
 			children = (
 				808D425325F0D4F400912250 /* Mock */,
+				808D42A225F1176600912250 /* viewModel */,
 				808D422E25F0D29E00912250 /* Domain */,
 				808D427125F0EFE300912250 /* Data */,
 				809B2789256FBDDC0004D595 /* Info.plist */,
@@ -967,9 +1016,12 @@
 			files = (
 				808D423325F0D2C300912250 /* HousingUseCaseTests.swift in Sources */,
 				808D428025F0F0EC00912250 /* HousingServiceMock.swift in Sources */,
+				808D42DA25F11C7500912250 /* HousingUseCaseMock.swift in Sources */,
+				808D42E225F11D4400912250 /* housingDBUseCaseMock.swift in Sources */,
 				808D425525F0D50500912250 /* HousingRepositoryMock.swift in Sources */,
 				808D425D25F0E3EF00912250 /* MockedData.swift in Sources */,
 				808D427325F0F00900912250 /* HousingRepositoryTests.swift in Sources */,
+				808D42CD25F11B6900912250 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
