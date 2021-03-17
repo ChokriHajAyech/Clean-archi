@@ -10,8 +10,6 @@
 		80120C7225EF59F00006353F /* ObservableType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80120C7125EF59F00006353F /* ObservableType+Extension.swift */; };
 		803371F6257FC313006775D0 /* AppDelegate+DIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803371F5257FC313006775D0 /* AppDelegate+DIViewModel.swift */; };
 		803371FC257FC6DF006775D0 /* Container+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803371FB257FC6DF006775D0 /* Container+Extensions.swift */; };
-		803DF1FE25B04F9F006D3A0F /* ChoiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DF1FD25B04F9F006D3A0F /* ChoiceModel.swift */; };
-		803DF20225B04FA9006D3A0F /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DF20125B04FA9006D3A0F /* QuestionModel.swift */; };
 		8041877C25B5A99C004F13FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041877B25B5A99C004F13FE /* Constants.swift */; };
 		8080ABC72571158000EC5B4C /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080ABC62571158000EC5B4C /* HomeCoordinator.swift */; };
 		8080ABCA257119E800EC5B4C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080ABC9257119E800EC5B4C /* SettingsViewController.swift */; };
@@ -116,8 +114,6 @@
 		80120C7125EF59F00006353F /* ObservableType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extension.swift"; sourceTree = "<group>"; };
 		803371F5257FC313006775D0 /* AppDelegate+DIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+DIViewModel.swift"; sourceTree = "<group>"; };
 		803371FB257FC6DF006775D0 /* Container+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Extensions.swift"; sourceTree = "<group>"; };
-		803DF1FD25B04F9F006D3A0F /* ChoiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceModel.swift; sourceTree = "<group>"; };
-		803DF20125B04FA9006D3A0F /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		8041877B25B5A99C004F13FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8080ABC62571158000EC5B4C /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		8080ABC9257119E800EC5B4C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -269,8 +265,6 @@
 		803DF1FA25B04F5D006D3A0F /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				803DF1FD25B04F9F006D3A0F /* ChoiceModel.swift */,
-				803DF20125B04FA9006D3A0F /* QuestionModel.swift */,
 				8086986925E7AA16008DD78B /* AppResult.swift */,
 				8086985425E7A81B008DD78B /* AppError.swift */,
 				8086986E25E7B11B008DD78B /* HousingDetails.swift */,
@@ -541,7 +535,6 @@
 			isa = PBXGroup;
 			children = (
 				808D42D825F11C5700912250 /* Service */,
-				808D42D725F11C4300912250 /* Repository */,
 				808D427F25F0F0EC00912250 /* HousingServiceMock.swift */,
 			);
 			path = Data;
@@ -570,13 +563,6 @@
 				808D42D425F11C1F00912250 /* UsesCases */,
 			);
 			path = Domain;
-			sourceTree = "<group>";
-		};
-		808D42D725F11C4300912250 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repository;
 			sourceTree = "<group>";
 		};
 		808D42D825F11C5700912250 /* Service */ = {
@@ -992,9 +978,7 @@
 				80C914072576A3F40048184D /* SplashViewController.swift in Sources */,
 				8086986A25E7AA16008DD78B /* AppResult.swift in Sources */,
 				8086985525E7A81B008DD78B /* AppError.swift in Sources */,
-				803DF20225B04FA9006D3A0F /* QuestionModel.swift in Sources */,
 				809B2797256FBED60004D595 /* Storyboarded.swift in Sources */,
-				803DF1FE25B04F9F006D3A0F /* ChoiceModel.swift in Sources */,
 				8086977B25E6E5FB008DD78B /* ApiErrorModel.swift in Sources */,
 				8080E99625EC10670018B9AC /* TabBarPageEnum.swift in Sources */,
 				8086986F25E7B11B008DD78B /* HousingDetails.swift in Sources */,

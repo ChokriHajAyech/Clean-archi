@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/mobiapps/Desktop/SeLoger/SeLoger.xcodeproj">
+      location = "group:SeLoger.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SeLoger.xcodeproj">
    </FileRef>
 </Workspace>
